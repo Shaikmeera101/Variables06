@@ -1,0 +1,129 @@
+
+1)Web Development:
+1)Git 
+2)Git hub
+
+#2 
+#1 sat
+1)JavaScript:
+--1)Develop the dynamic websites
+ 
+1)Static websites :  Remains   same to every one
+Ex:fb login
+2)Dynamic Websites: changes to every one (data)
+1)You-tube
+2)Criczbuzz
+3)Google maps  #time -time #
+
+Variables :
+---1)Static typed and Dynamic typed:
+1)Variables 
+2)Variables are used to store the data (any kind of data)
+
+Variables:
+1)Case-sensitive 
+2)start with letters , _  (under_score)  , $ (dollarsign)
+3)cant start with numbers
+4)Reserved words (keywords) not allowed
+5)Allow  letters , _ (under_score)  , $ (dollarsign) , numbers
+
+How to declare variables:
+	var
+	let
+	const
+
+1)Var keyword  1995-2015
+2)let keyword  2015
+3)var used only old browsers
+
+1)Reassigning variables is possible by var
+1)Reassigning  variables :
+
+ var fav_std="ramya"
+     fav_std="kavya"
+     fav_std="sam"
+     document.write(fav_std)
+     console.log(fav_std)
+
+Output: sam
+Example:2
+ var a=1;
+   a=5;
+   document.write(a+a)
+   console.log(a+a)
+Output: 10
+
+
+
+1)Reassigning variables is possible by var
+2)Reassigning  with let also accepted
+3) Reassigning  with const not accepted
+
+
+Redeclaring with var is accepted :
+Example:
+   var a=1;
+   var a=5;
+   document.write(a+a)
+   console.log(a+a)
+
+Output : 10
+
+Redeclaring with let is not accepted :
+Example:
+ let a=1;
+   let a=5;
+   document.write(a+a)
+   console.log(a+a)
+
+Output : error
+
+	Redeclaring with var is accepted :
+	Redeclaring with let is not accepted :
+	Redeclaring with const is not accepted :
+
+Block scope:
+Variables  declared with  var doesnot have block scope
+var a="sai"
+{
+    var a="kumar"
+    console.log(a)
+}
+console.log(a)
+
+variables declared with let have block scope
+
+
+
+#implemented in vs code:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a=11;
+
+        {
+            let a=5
+            a=a+5;///10
+            console.log(a+a)  //10  
+           
+        }
+
+        let a=10;
+       console.log(a+a)//
+      
+    //    var a="ramya"
+    //    a="kavya"
+    //    a="sam"
+    //    console.log(a)
+    //    console.log(a)
+    //    document.write(a)
+    </script>
+</body>
+</html>
+
