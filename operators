@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+// alert("hi chiru")
+// console.log(alert)
+// document.write(alert)
+
+    // let name=prompt("Enter Your name?")
+    // alert(name)
+
+    let aa=parseInt(prompt())
+    let bb=prompt()
+    console.log(typeof(aa))
+    document.write(typeof(aa))
+    console.log(aa+bb)
+    document.write(aa+bb)
+
+
+
+
+        let t=40
+
+        let r=(t>40) ? "Ac-off":"Ac -on"
+
+        document.write(r)
+
+        let a=105
+        let b='105'
+        
+        
+        document.write(a==b ,"<br>")
+        document.write(a===b ,"<br>")
+        document.write(a!=b ,"<br>")
+        document.write(a!==b ,"<br>")
+
+        //b=b-30 
+        document.write(a>b  &&  b>11 ,"<br>")  
+        document.write(a>b || b>11 ,"<br>")  
+
+        document.write(!(false) ,"<br>");
+        document.write(!(a>b) ,"<br>");
+       
+           
+        a+=30
+        //a=a+30  ; 10 +30 =40
+        document.write(a ,"<br>")
+
+
+           document.write(b ,"<br>")
+           document.write(a ,"<br>")
+
+        document.write(a%b ,"<br>") 
+        //remainder part
+        document.write(a/b ,"<br>") 
+        //quotient
+        document.write(a*b ,"<br>")
+        document.write(a**b)
+
+    </script>
+</body>
+</html>
